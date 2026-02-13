@@ -1,6 +1,6 @@
 **How to run my implementations:**
 
-Every Makefile command will run 100 iterations of 1, 2, 4, 8, 16, and 64 threads. It will output the average number of cycles each threadnum takes in the following format:
+Every Makefile command will run 100 iterations of 1, 2, 4, 8, 16, and 32 threads. It will output the average number of cycles each threadnum takes in the following format:
 
 Threads: 1, Avg cycles: 4789556.320000
 
@@ -12,7 +12,7 @@ Threads: 8, Avg cycles: 13391926.080000
 
 Threads: 16, Avg cycles: 14259841.920000
 
-Threads: 64, Avg cycles: 11489171.840000
+Threads: 32, Avg cycles: 11489171.840000
 
 
 **Implementation 1**: Parallel For (in file tri_for.c)
