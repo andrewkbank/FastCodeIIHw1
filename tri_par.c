@@ -128,7 +128,7 @@ int main(int argc, char **argv)
 
   input();
 
-  int thread_counts[] = {1, 2, 4, 8, 16, 64};
+  int thread_counts[] = {1, 2, 4, 8, 16, 32};
   int num_tests = 6;
 
   for (int t = 0; t < num_tests; ++t)
